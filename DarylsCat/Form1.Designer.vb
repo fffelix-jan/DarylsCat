@@ -26,6 +26,8 @@ Partial Class Form1
         Me.MeowButton = New System.Windows.Forms.Button()
         Me.BarkButton = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.FoxButton = New System.Windows.Forms.Button()
+        Me.MooButton = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.EatButton = New System.Windows.Forms.Button()
@@ -35,10 +37,16 @@ Partial Class Form1
         Me.AboutLink = New System.Windows.Forms.LinkLabel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.JokeButton = New System.Windows.Forms.Button()
+        Me.VersionLabel = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MeowButton
@@ -58,11 +66,27 @@ Partial Class Form1
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.FoxButton)
+        Me.GroupBox1.Controls.Add(Me.MooButton)
         Me.GroupBox1.Controls.Add(Me.MeowButton)
         Me.GroupBox1.Controls.Add(Me.BarkButton)
         resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.TabStop = False
+        '
+        'FoxButton
+        '
+        Me.FoxButton.BackColor = System.Drawing.Color.PapayaWhip
+        resources.ApplyResources(Me.FoxButton, "FoxButton")
+        Me.FoxButton.Name = "FoxButton"
+        Me.FoxButton.UseVisualStyleBackColor = False
+        '
+        'MooButton
+        '
+        Me.MooButton.BackColor = System.Drawing.Color.Snow
+        resources.ApplyResources(Me.MooButton, "MooButton")
+        Me.MooButton.Name = "MooButton"
+        Me.MooButton.UseVisualStyleBackColor = False
         '
         'GroupBox2
         '
@@ -82,15 +106,17 @@ Partial Class Form1
         '
         'EatButton
         '
+        Me.EatButton.BackColor = System.Drawing.SystemColors.ButtonFace
         resources.ApplyResources(Me.EatButton, "EatButton")
         Me.EatButton.Name = "EatButton"
-        Me.EatButton.UseVisualStyleBackColor = True
+        Me.EatButton.UseVisualStyleBackColor = False
         '
         'FeedButton
         '
+        Me.FeedButton.BackColor = System.Drawing.SystemColors.ButtonFace
         resources.ApplyResources(Me.FeedButton, "FeedButton")
         Me.FeedButton.Name = "FeedButton"
-        Me.FeedButton.UseVisualStyleBackColor = True
+        Me.FeedButton.UseVisualStyleBackColor = False
         '
         'Label2
         '
@@ -116,9 +142,23 @@ Partial Class Form1
         '
         'JokeButton
         '
+        Me.JokeButton.BackColor = System.Drawing.SystemColors.ButtonFace
         resources.ApplyResources(Me.JokeButton, "JokeButton")
         Me.JokeButton.Name = "JokeButton"
-        Me.JokeButton.UseVisualStyleBackColor = True
+        Me.JokeButton.UseVisualStyleBackColor = False
+        '
+        'VersionLabel
+        '
+        resources.ApplyResources(Me.VersionLabel, "VersionLabel")
+        Me.VersionLabel.Name = "VersionLabel"
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.Label5)
+        Me.GroupBox3.Controls.Add(Me.PictureBox2)
+        resources.ApplyResources(Me.GroupBox3, "GroupBox3")
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.TabStop = False
         '
         'PictureBox1
         '
@@ -128,11 +168,25 @@ Partial Class Form1
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.TabStop = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.DarylsCat.My.Resources.Resources.Poo
+        resources.ApplyResources(Me.PictureBox2, "PictureBox2")
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.TabStop = False
+        '
+        'Label5
+        '
+        resources.ApplyResources(Me.Label5, "Label5")
+        Me.Label5.Name = "Label5"
+        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightSalmon
+        Me.Controls.Add(Me.GroupBox3)
+        Me.Controls.Add(Me.VersionLabel)
         Me.Controls.Add(Me.JokeButton)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox1)
@@ -146,7 +200,10 @@ Partial Class Form1
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -164,5 +221,11 @@ Partial Class Form1
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents JokeButton As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents MooButton As System.Windows.Forms.Button
+    Friend WithEvents VersionLabel As System.Windows.Forms.Label
+    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents FoxButton As System.Windows.Forms.Button
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
 
 End Class

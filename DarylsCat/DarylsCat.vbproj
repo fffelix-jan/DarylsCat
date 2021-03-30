@@ -133,6 +133,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="StringBank.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -183,14 +184,19 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\meow.wav" />
+    <EmbeddedResource Include="Resources\Meow.wav" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CatIcon.ico" />
-    <None Include="Resources\laughing.wav" />
-    <None Include="Resources\pourfood.wav" />
-    <None Include="Resources\eat.wav" />
-    <None Include="Resources\bark.wav" />
+    <None Include="Resources\Poo.png" />
+    <None Include="Resources\FoxHaTeHo.wav" />
+    <None Include="Resources\FoxWaPaPow.wav" />
+    <None Include="Resources\FoxGeringDing.wav" />
+    <None Include="Resources\moo.wav" />
+    <None Include="Resources\Laughing.wav" />
+    <None Include="Resources\PourFood.wav" />
+    <None Include="Resources\Eat.wav" />
+    <None Include="Resources\Bark.wav" />
     <None Include="Resources\MainCat.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
