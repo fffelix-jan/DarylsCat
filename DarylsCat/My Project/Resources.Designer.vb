@@ -63,27 +63,63 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
-        Friend ReadOnly Property bark() As System.IO.UnmanagedMemoryStream
+        Friend ReadOnly Property Bark() As System.IO.UnmanagedMemoryStream
             Get
-                Return ResourceManager.GetStream("bark", resourceCulture)
+                Return ResourceManager.GetStream("Bark", resourceCulture)
             End Get
         End Property
         
         '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
-        Friend ReadOnly Property eat() As System.IO.UnmanagedMemoryStream
+        Friend ReadOnly Property Eat() As System.IO.UnmanagedMemoryStream
             Get
-                Return ResourceManager.GetStream("eat", resourceCulture)
+                Return ResourceManager.GetStream("Eat", resourceCulture)
             End Get
         End Property
         
         '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
-        Friend ReadOnly Property laughing() As System.IO.UnmanagedMemoryStream
+        Friend ReadOnly Property Fart() As System.IO.UnmanagedMemoryStream
             Get
-                Return ResourceManager.GetStream("laughing", resourceCulture)
+                Return ResourceManager.GetStream("Fart", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property FoxGeringDing() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("FoxGeringDing", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property FoxHaTeHo() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("FoxHaTeHo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property FoxWaPaPow() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("FoxWaPaPow", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Laughing() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Laughing", resourceCulture)
             End Get
         End Property
         
@@ -100,18 +136,37 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
-        Friend ReadOnly Property meow() As System.IO.UnmanagedMemoryStream
+        Friend ReadOnly Property Meow() As System.IO.UnmanagedMemoryStream
             Get
-                Return ResourceManager.GetStream("meow", resourceCulture)
+                Return ResourceManager.GetStream("Meow", resourceCulture)
             End Get
         End Property
         
         '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
-        Friend ReadOnly Property pourfood() As System.IO.UnmanagedMemoryStream
+        Friend ReadOnly Property Moo() As System.IO.UnmanagedMemoryStream
             Get
-                Return ResourceManager.GetStream("pourfood", resourceCulture)
+                Return ResourceManager.GetStream("Moo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Poo() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Poo", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property PourFood() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("PourFood", resourceCulture)
             End Get
         End Property
     End Module

@@ -53,6 +53,30 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("500")>  _
+        Public Property FoodAmount() As UInteger
+            Get
+                Return CType(Me("FoodAmount"),UInteger)
+            End Get
+            Set
+                Me("FoodAmount") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property PoopPresent() As Boolean
+            Get
+                Return CType(Me("PoopPresent"),Boolean)
+            End Get
+            Set
+                Me("PoopPresent") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
