@@ -160,7 +160,7 @@
     <value>196, 33</value>
   </data>
   <data name="BarkButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 91</value>
+    <value>177, 91</value>
   </data>
   <data name="BarkButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -180,21 +180,6 @@
   <data name="&gt;&gt;BarkButton.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="FoxButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="FoxButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>456, 33</value>
-  </data>
-  <data name="FoxButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 91</value>
-  </data>
-  <data name="FoxButton.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="FoxButton.Text" xml:space="preserve">
-    <value>What does the FOX say?</value>
-  </data>
   <data name="&gt;&gt;FoxButton.Name" xml:space="preserve">
     <value>FoxButton</value>
   </data>
@@ -206,24 +191,6 @@
   </data>
   <data name="&gt;&gt;FoxButton.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="MooButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 13.8pt</value>
-  </data>
-  <data name="MooButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="MooButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>367, 33</value>
-  </data>
-  <data name="MooButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 91</value>
-  </data>
-  <data name="MooButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="MooButton.Text" xml:space="preserve">
-    <value>Moo!</value>
   </data>
   <data name="&gt;&gt;MooButton.Name" xml:space="preserve">
     <value>MooButton</value>
@@ -263,6 +230,150 @@
   </data>
   <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="FoxButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FoxButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 33</value>
+  </data>
+  <data name="FoxButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 91</value>
+  </data>
+  <data name="FoxButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="FoxButton.Text" xml:space="preserve">
+    <value>What does the FOX say?</value>
+  </data>
+  <data name="&gt;&gt;FoxButton.Name" xml:space="preserve">
+    <value>FoxButton</value>
+  </data>
+  <data name="&gt;&gt;FoxButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FoxButton.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;FoxButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MooButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 13.8pt</value>
+  </data>
+  <data name="MooButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MooButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 33</value>
+  </data>
+  <data name="MooButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 91</value>
+  </data>
+  <data name="MooButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MooButton.Text" xml:space="preserve">
+    <value>Moo!</value>
+  </data>
+  <data name="&gt;&gt;MooButton.Name" xml:space="preserve">
+    <value>MooButton</value>
+  </data>
+  <data name="&gt;&gt;MooButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MooButton.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;MooButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EatButton.Name" xml:space="preserve">
+    <value>EatButton</value>
+  </data>
+  <data name="&gt;&gt;EatButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EatButton.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;EatButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FeedButton.Name" xml:space="preserve">
+    <value>FeedButton</value>
+  </data>
+  <data name="&gt;&gt;FeedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FeedButton.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;FeedButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 155</value>
+  </data>
+  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 117</value>
+  </data>
+  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>Food</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -417,33 +528,6 @@
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="GroupBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Georgia, 10.8pt, style=Bold, Italic</value>
-  </data>
-  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 155</value>
-  </data>
-  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 117</value>
-  </data>
-  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="GroupBox2.Text" xml:space="preserve">
-    <value>Food</value>
-  </data>
-  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
-    <value>GroupBox2</value>
-  </data>
-  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="AboutLink.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -567,59 +651,65 @@
   <data name="&gt;&gt;VersionLabel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+  <data name="PoopLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 88</value>
+  <data name="PoopLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
   </data>
-  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 21</value>
+  <data name="PoopLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
   </data>
-  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+  <data name="PoopLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="Label5.Text" xml:space="preserve">
+  <data name="PoopLabel.Text" xml:space="preserve">
     <value>Click Poop to Empty</value>
   </data>
-  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
-    <value>Label5</value>
+  <data name="PoopLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+  <data name="&gt;&gt;PoopLabel.Name" xml:space="preserve">
+    <value>PoopLabel</value>
+  </data>
+  <data name="&gt;&gt;PoopLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PoopLabel.Parent" xml:space="preserve">
     <value>GroupBox3</value>
   </data>
-  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PoopLabel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="PoopBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 22</value>
   </data>
-  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="PoopBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 63</value>
   </data>
-  <data name="PictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="PoopBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
-  <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="PoopBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
-    <value>PictureBox2</value>
+  <data name="PoopBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;PoopBox.Name" xml:space="preserve">
+    <value>PoopBox</value>
+  </data>
+  <data name="&gt;&gt;PoopBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PoopBox.Parent" xml:space="preserve">
     <value>GroupBox3</value>
   </data>
-  <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PoopBox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="GroupBox3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 10.8pt</value>
+    <value>Arial, 10.8pt</value>
   </data>
   <data name="GroupBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>682, 155</value>
@@ -645,33 +735,36 @@
   <data name="&gt;&gt;GroupBox3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainCatBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainCatBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 86</value>
   </data>
-  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainCatBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 137</value>
   </data>
-  <data name="PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainCatBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainCatBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
-    <value>PictureBox1</value>
+  <data name="&gt;&gt;MainCatBox.Name" xml:space="preserve">
+    <value>MainCatBox</value>
   </data>
-  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainCatBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainCatBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainCatBox.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <metadata name="PoopTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1708,14 +1801,17 @@
         OAxiqyHFc0KI9ZFQqHvL7j1TAbEpXFP8/8XGgcCEHMXLAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Daryl's Cat</value>
+  </data>
+  <data name="&gt;&gt;PoopTimer.Name" xml:space="preserve">
+    <value>PoopTimer</value>
+  </data>
+  <data name="&gt;&gt;PoopTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

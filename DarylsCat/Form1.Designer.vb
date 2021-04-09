@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.MeowButton = New System.Windows.Forms.Button()
         Me.BarkButton = New System.Windows.Forms.Button()
@@ -39,14 +40,15 @@ Partial Class Form1
         Me.JokeButton = New System.Windows.Forms.Button()
         Me.VersionLabel = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.PoopLabel = New System.Windows.Forms.Label()
+        Me.PoopBox = New System.Windows.Forms.PictureBox()
+        Me.MainCatBox = New System.Windows.Forms.PictureBox()
+        Me.PoopTimer = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PoopBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MainCatBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MeowButton
@@ -154,31 +156,35 @@ Partial Class Form1
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.Label5)
-        Me.GroupBox3.Controls.Add(Me.PictureBox2)
+        Me.GroupBox3.Controls.Add(Me.PoopLabel)
+        Me.GroupBox3.Controls.Add(Me.PoopBox)
         resources.ApplyResources(Me.GroupBox3, "GroupBox3")
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.TabStop = False
         '
-        'PictureBox1
+        'PoopLabel
         '
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Image = Global.DarylsCat.My.Resources.Resources.MainCat
-        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.TabStop = False
+        resources.ApplyResources(Me.PoopLabel, "PoopLabel")
+        Me.PoopLabel.Name = "PoopLabel"
         '
-        'PictureBox2
+        'PoopBox
         '
-        Me.PictureBox2.Image = Global.DarylsCat.My.Resources.Resources.Poo
-        resources.ApplyResources(Me.PictureBox2, "PictureBox2")
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.TabStop = False
+        Me.PoopBox.Image = Global.DarylsCat.My.Resources.Resources.Poo
+        resources.ApplyResources(Me.PoopBox, "PoopBox")
+        Me.PoopBox.Name = "PoopBox"
+        Me.PoopBox.TabStop = False
         '
-        'Label5
+        'MainCatBox
         '
-        resources.ApplyResources(Me.Label5, "Label5")
-        Me.Label5.Name = "Label5"
+        Me.MainCatBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.MainCatBox.Image = Global.DarylsCat.My.Resources.Resources.MainCat
+        resources.ApplyResources(Me.MainCatBox, "MainCatBox")
+        Me.MainCatBox.Name = "MainCatBox"
+        Me.MainCatBox.TabStop = False
+        '
+        'PoopTimer
+        '
+        Me.PoopTimer.Interval = 1000
         '
         'Form1
         '
@@ -189,7 +195,7 @@ Partial Class Form1
         Me.Controls.Add(Me.VersionLabel)
         Me.Controls.Add(Me.JokeButton)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.MainCatBox)
         Me.Controls.Add(Me.AboutLink)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -202,8 +208,8 @@ Partial Class Form1
         Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PoopBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MainCatBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -217,7 +223,7 @@ Partial Class Form1
     Friend WithEvents EatButton As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents AboutLink As System.Windows.Forms.LinkLabel
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents MainCatBox As System.Windows.Forms.PictureBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents JokeButton As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
@@ -225,7 +231,8 @@ Partial Class Form1
     Friend WithEvents VersionLabel As System.Windows.Forms.Label
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents FoxButton As System.Windows.Forms.Button
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents PoopLabel As System.Windows.Forms.Label
+    Friend WithEvents PoopBox As System.Windows.Forms.PictureBox
+    Friend WithEvents PoopTimer As System.Windows.Forms.Timer
 
 End Class

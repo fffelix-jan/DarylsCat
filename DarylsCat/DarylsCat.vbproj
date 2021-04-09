@@ -147,6 +147,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="DarylsCat_TemporaryKey.pfx" />
     <None Include="My Project\app.manifest">
       <SubType>Designer</SubType>
@@ -188,6 +189,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CatIcon.ico" />
+    <None Include="Resources\Fart.wav" />
     <None Include="Resources\Poo.png" />
     <None Include="Resources\FoxHaTeHo.wav" />
     <None Include="Resources\FoxWaPaPow.wav" />
